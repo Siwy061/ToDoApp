@@ -1,0 +1,64 @@
+.Task {
+  position: relative;
+  border: #cade66 1px solid;
+  padding: 10px;
+  list-style-type: none;
+  background-color: #cade66;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 2rem;
+}
+.Index {
+  position: absolute;
+  margin: 0;
+  background-color: #616159;
+  left: -3%;
+  top: -2.2rem;
+  border: 2px solid white;
+  padding: 6px 15px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: white;
+}
+.Name {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  padding-left: 5%;
+}
+.Date {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  left: 10%;
+  margin-right: 10%;
+}
+
+.Icons {
+  position: absolute;
+  right: 5%;
+}
+button {
+  margin: 2px;
+}
+.changeNameForm {
+  position: fixed;
+  bottom: -2.5rem;
+  right: -20rem;
+  min-width: 20vh;
+  background-color: #fff;
+  border-radius: 10%;
+
+  background-color: white;
+  box-shadow: 0px 0px 17px -7px rgba(0, 0, 0, 1);
+}
+
+.Button:hover,
+.Edit:hover,
+.Done:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 1);
+  background-color: #548058;
+  color: white;
+}
